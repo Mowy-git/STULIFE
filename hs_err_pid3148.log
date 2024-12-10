@@ -1,0 +1,240 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 268435456 bytes. Error detail: G1 virtual space
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3631), pid=3148, tid=8548
+#
+# JRE version:  (22.0.2+9) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (22.0.2+9-70, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dclassworlds.conf=C:\Program Files\NetBeans-23\netbeans\java\maven\bin\m2.conf -Dmaven.home=C:\Program Files\NetBeans-23\netbeans\java\maven -Dlibrary.jansi.path=C:\Program Files\NetBeans-23\netbeans\java\maven\lib\jansi-native -Dmaven.multiModuleProjectDirectory=C:\Users\Mowy\Desktop\GUI org.codehaus.plexus.classworlds.launcher.Launcher -Dexec.vmArgs= -Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs} -Dexec.executable=C:\Program Files\Java\jdk-22\bin\java.exe -Dexec.mainClass=Frame -Dexec.classpathScope=runtime -Dexec.appArgs= -Dmaven.ext.class.path=C:\Program Files\NetBeans-23\netbeans\java\maven-nblib\netbeans-eventspy.jar --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec
+
+Host: AMD Ryzen 5 5600 6-Core Processor              , 12 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.5072)
+Time: Thu Nov 21 11:24:40 2024 China Standard Time elapsed time: 0.006554 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000204c55e2010):  JavaThread "Unknown thread" [_thread_in_vm, id=8548, stack(0x000000ef27700000,0x000000ef27800000) (1024K)]
+
+Stack: [0x000000ef27700000,0x000000ef27800000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6e26e9]  (no source info available)
+V  [jvm.dll+0x875753]  (no source info available)
+V  [jvm.dll+0x877b7e]  (no source info available)
+V  [jvm.dll+0x878253]  (no source info available)
+V  [jvm.dll+0x27fc86]  (no source info available)
+V  [jvm.dll+0x6ded85]  (no source info available)
+V  [jvm.dll+0x6d388a]  (no source info available)
+V  [jvm.dll+0x358b8a]  (no source info available)
+V  [jvm.dll+0x3610b6]  (no source info available)
+V  [jvm.dll+0x3b419e]  (no source info available)
+V  [jvm.dll+0x3b4448]  (no source info available)
+V  [jvm.dll+0x32c5ec]  (no source info available)
+V  [jvm.dll+0x32d258]  (no source info available)
+V  [jvm.dll+0x83d5ac]  (no source info available)
+V  [jvm.dll+0x3c10d1]  (no source info available)
+V  [jvm.dll+0x8264cc]  (no source info available)
+V  [jvm.dll+0x45bd5e]  (no source info available)
+V  [jvm.dll+0x45dbe1]  (no source info available)
+C  [jli.dll+0x52a3]  (no source info available)
+C  [ucrtbase.dll+0x21bb2]  (no source info available)
+C  [KERNEL32.DLL+0x17374]  (no source info available)
+C  [ntdll.dll+0x4cc91]  (no source info available)
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007fff2108c1c8, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+Total: 0
+
+Other Threads:
+  0x00000204c786e4f0 WorkerThread "GC Thread#0"                     [id=19100, stack(0x000000ef27800000,0x000000ef27900000) (1024K)]
+  0x00000204c787f470 ConcurrentGCThread "G1 Main Marker"            [id=30980, stack(0x000000ef27900000,0x000000ef27a00000) (1024K)]
+  0x00000204c7881640 WorkerThread "G1 Conc#0"                       [id=15960, stack(0x000000ef27a00000,0x000000ef27b00000) (1024K)]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007fff207df517]
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fff2110cc80] Heap_lock - owner thread: 0x00000204c55e2010
+
+Heap address: 0x0000000701200000, size: 4078 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 1.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+ CardTable entry size: 512
+ Card Set container configuration: InlinePtr #cards 4 size 8 Array Of Cards #cards 16 size 48 Howl #buckets 8 coarsen threshold 3686 Howl Bitmap #cards 512 size 80 coarsen threshold 460 Card regions per heap region 1 cards per card region 4096
+
+Heap:
+ garbage-first heap   total reserved 4175872K, committed 0K, used 0K [0x0000000701200000, 0x0000000800000000)
+  region size 2048K, 0 young (0K), 0 survivors (0K)
+
+[error occurred during error reporting (printing heap information), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007fff20bde869]
+GC Heap History (0 events):
+No events
+
+Dll operation events (1 events):
+Event: 0.004 Loaded shared library C:\Program Files\Java\jdk-22\bin\java.dll
+
+Deoptimization events (0 events):
+No events
+
+Classes loaded (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+ZGC Phase Switch (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Memory protections (0 events):
+No events
+
+Nmethod flushes (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7a2730000 - 0x00007ff7a2740000 	C:\Program Files\Java\jdk-22\bin\java.exe
+0x00007fffa71f0000 - 0x00007fffa73e8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fffa5670000 - 0x00007fffa5732000 	C:\Windows\System32\KERNEL32.DLL
+0x00007fffa4ad0000 - 0x00007fffa4dce000 	C:\Windows\System32\KERNELBASE.dll
+0x00007fffa49d0000 - 0x00007fffa4ad0000 	C:\Windows\System32\ucrtbase.dll
+0x00007fff9bc90000 - 0x00007fff9bcab000 	C:\Program Files\Java\jdk-22\bin\VCRUNTIME140.dll
+0x00007fff900d0000 - 0x00007fff900e7000 	C:\Program Files\Java\jdk-22\bin\jli.dll
+0x00007fffa5b10000 - 0x00007fffa5cad000 	C:\Windows\System32\USER32.dll
+0x00007fff916c0000 - 0x00007fff9195a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16\COMCTL32.dll
+0x00007fffa4e70000 - 0x00007fffa4e92000 	C:\Windows\System32\win32u.dll
+0x00007fffa5520000 - 0x00007fffa55be000 	C:\Windows\System32\msvcrt.dll
+0x00007fffa5640000 - 0x00007fffa566b000 	C:\Windows\System32\GDI32.dll
+0x00007fffa5000000 - 0x00007fffa5117000 	C:\Windows\System32\gdi32full.dll
+0x00007fffa4dd0000 - 0x00007fffa4e6d000 	C:\Windows\System32\msvcp_win.dll
+0x00007fffa5210000 - 0x00007fffa523f000 	C:\Windows\System32\IMM32.DLL
+0x00007fffa1cc0000 - 0x00007fffa1ccc000 	C:\Program Files\Java\jdk-22\bin\vcruntime140_1.dll
+0x00007fff66510000 - 0x00007fff6659e000 	C:\Program Files\Java\jdk-22\bin\msvcp140.dll
+0x00007fff204a0000 - 0x00007fff211e9000 	C:\Program Files\Java\jdk-22\bin\server\jvm.dll
+0x00007fffa6c00000 - 0x00007fffa6cb1000 	C:\Windows\System32\ADVAPI32.dll
+0x00007fffa5740000 - 0x00007fffa57df000 	C:\Windows\System32\sechost.dll
+0x00007fffa5330000 - 0x00007fffa5453000 	C:\Windows\System32\RPCRT4.dll
+0x00007fffa51e0000 - 0x00007fffa5207000 	C:\Windows\System32\bcrypt.dll
+0x00007fffa5a90000 - 0x00007fffa5afb000 	C:\Windows\System32\WS2_32.dll
+0x00007fffa4640000 - 0x00007fffa468b000 	C:\Windows\SYSTEM32\POWRPROF.dll
+0x00007fff95370000 - 0x00007fff9537a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007fff96f00000 - 0x00007fff96f27000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fffa4620000 - 0x00007fffa4632000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007fffa26f0000 - 0x00007fffa2702000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007fffa1c90000 - 0x00007fffa1c9a000 	C:\Program Files\Java\jdk-22\bin\jimage.dll
+0x00007fff9f1e0000 - 0x00007fff9f3c4000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007fff9d640000 - 0x00007fff9d674000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007fffa4940000 - 0x00007fffa49c2000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007fff9b6a0000 - 0x00007fff9b6be000 	C:\Program Files\Java\jdk-22\bin\java.dll
+0x00007fffa5cb0000 - 0x00007fffa641d000 	C:\Windows\System32\SHELL32.dll
+0x00007fffa6de0000 - 0x00007fffa6f0b000 	C:\Windows\System32\ole32.dll
+0x00007fffa68a0000 - 0x00007fffa6bf3000 	C:\Windows\System32\combase.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-22\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16;C:\Program Files\Java\jdk-22\bin\server
+
+VM Arguments:
+jvm_args: -Dclassworlds.conf=C:\Program Files\NetBeans-23\netbeans\java\maven\bin\m2.conf -Dmaven.home=C:\Program Files\NetBeans-23\netbeans\java\maven -Dlibrary.jansi.path=C:\Program Files\NetBeans-23\netbeans\java\maven\lib\jansi-native -Dmaven.multiModuleProjectDirectory=C:\Users\Mowy\Desktop\GUI 
+java_command: org.codehaus.plexus.classworlds.launcher.Launcher -Dexec.vmArgs= -Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs} -Dexec.executable=C:\Program Files\Java\jdk-22\bin\java.exe -Dexec.mainClass=Frame -Dexec.classpathScope=runtime -Dexec.appArgs= -Dmaven.ext.class.path=C:\Program Files\NetBeans-23\netbeans\java\maven-nblib\netbeans-eventspy.jar --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec
+java_class_path (initial): C:\Program Files\NetBeans-23\netbeans\java\maven\boot\plexus-classworlds-2.8.0.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 3                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 10                                        {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 2097152                                   {product} {ergonomic}
+   size_t InitialHeapSize                          = 268435456                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 4276092928                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5839372                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122909434                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122909434                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 4276092928                             {manageable} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags foldmultilines=false
+ #1: stderr all=off uptime,level,tags foldmultilines=false
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-22
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-11.0.24.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\mingw64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mowy\AppData\Local\Programs\Python\Launcher\;C:\Users\Mowy\AppData\Local\Microsoft\WindowsApps;C:\Users\Mowy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mowy\.dotnet\tools;C:\Users\Mowy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.1\bin;C:\Users\Mowy\AppData\Local\atom\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;
+USERNAME=Mowy
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+TMP=C:\Users\Mowy\AppData\Local\Temp
+TEMP=C:\Users\Mowy\AppData\Local\Temp
+
+
+
+
+Periodic native trim disabled
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 10 , 64 bit Build 19041 (10.0.19041.5072)
+OS uptime: 5 days 16:53 hours
+Hyper-V role detected
+
+CPU: total 12 (initial active 12) (12 cores per cpu, 2 threads per core) family 25 model 33 stepping 0 microcode 0x0, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4a, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, clmul, bmi1, bmi2, adx, sha, fma, vzeroupper, clflush, clflushopt, hv, rdtscp, rdpid, f16c, cet_ss
+Processor Information for all 12 processors :
+  Max Mhz: 3501, Current Mhz: 3501, Mhz Limit: 3501
+
+Memory: 4k page, system-wide physical 16309M (1544M free)
+TotalPageFile size 30309M (AvailPageFile size 187M)
+current process WorkingSet (physical memory assigned to process): 12M, peak: 12M
+current process commit charge ("private bytes"): 64M, peak: 320M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (22.0.2+9-70) for windows-amd64 JRE (22.0.2+9-70), built on 2024-06-04T16:52:23Z by "mach5one" with MS VC++ 17.6 (VS2022)
+
+END.

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 2000]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;head&gt;&#xa;    &lt;style&gt;&#xa;        body {&#xa;            font-family: Arial, sans-serif;&#xa;            line-height: 1.6;&#xa;        }&#xa;        h1, h2, h3 {&#xa;            color: #333;&#xa;        }&#xa;        ul {&#xa;            padding-left: 20px;&#xa;        }&#xa;        .meal-section {&#xa;            margin-bottom: 40px;&#xa;        }&#xa;    &lt;/style&gt;&#xa;&lt;/head&gt;&#xa;&lt;body&gt;&#xa;    &lt;h1&gt;BMI: Normal (18.5&#x2013;24.9)&lt;/h1&gt;&#xa;    &lt;p&gt;For individuals with a BMI in the normal range, the goal is typically to maintain weight, focusing on balanced nutrition.&lt;/p&gt;&#xa;&#xa;    &lt;div class=&quot;meal-section&quot;&gt;&#xa;        &lt;h2&gt;Breakfast&lt;/h2&gt;&#xa;        &lt;h3&gt;Omelet with Tuyo (Dried Fish) and Tomatoes&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;2 eggs: 140 kcal, 12g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 small tomato: 22 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 small dried fish (tuyo): 35 kcal, 6g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tsp vegetable oil (for cooking): 40 kcal, 0g protein&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 19g protein, 237 calories.&lt;/p&gt;&#xa;&#xa;        &lt;h3&gt;Lugaw (Rice Porridge with Chicken)&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;1/2 cup cooked rice: 102 kcal, 2g protein&lt;/li&gt;&#xa;            &lt;li&gt;100g chicken breast: 165 kcal, 31g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 clove garlic: 4 kcal, 0.2g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 small onion: 20 kcal, 0.5g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tsp fish sauce: 5 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tsp vegetable oil: 40 kcal, 0g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tbsp ginger: 5 kcal, 0.2g protein&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 34.9g protein, 341 calories.&lt;/p&gt;&#xa;&#xa;        &lt;h3&gt;Champorado with Milk&lt;/h3&gt;&#xa;        &lt;p&gt;Chocolate rice porridge made with tablea, with a bit of evaporated or fresh milk.&lt;/p&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;Glutinous Rice (&#xbd; cup): ~2g protein, ~180 calories&lt;/li&gt;&#xa;            &lt;li&gt;Tablea (30g): ~1g protein, ~160 calories&lt;/li&gt;&#xa;            &lt;li&gt;Evaporated Milk (&#xbc; cup): ~2g protein, ~50 calories&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; ~5g protein, ~390 calories.&lt;/p&gt;&#xa;&#xa;        &lt;h3&gt;Avocado and Egg Pandesal&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;Pandesal (1 roll): ~4g protein, ~130 calories&lt;/li&gt;&#xa;            &lt;li&gt;Avocado (&#xbc; fruit): ~1g protein, ~60 calories&lt;/li&gt;&#xa;            &lt;li&gt;Boiled Egg (1 large): ~6g protein, ~70 calories&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; ~11g protein, ~260 calories.&lt;/p&gt;&#xa;    &lt;/div&gt;&#xa;&#xa;    &lt;div class=&quot;meal-section&quot;&gt;&#xa;        &lt;h2&gt;Lunch&lt;/h2&gt;&#xa;        &lt;h3&gt;Inihaw na Isda (Grilled Fish) with Achara (Pickled Papaya) and Steamed Rice&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;150g tilapia or bangus: 150 kcal, 30g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tbsp vegetable oil (for grilling fish): 40 kcal, 0g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 cup steamed rice: 102 kcal, 2g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/4 cup achara (pickled papaya): 30 kcal, 1g protein&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 33g protein, 322 calories.&lt;/p&gt;&#xa;&#xa;        &lt;h3&gt;Pinakbet (Vegetable Stew with Shrimp Paste)&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;1/2 cup squash (kalabasa): 20 kcal, 0.5g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 cup eggplant (talong): 20 kcal, 0.5g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 cup string beans (sitaw): 15 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 cup okra: 20 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 small tomato: 22 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 small onion: 20 kcal, 0.5g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tbsp shrimp paste (bagoong): 20 kcal, 2g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tbsp vegetable oil: 40 kcal, 0g protein&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 6.5g protein, 177 calories.&lt;/p&gt;&#xa;    &lt;/div&gt;&#xa;&#xa;    &lt;div class=&quot;meal-section&quot;&gt;&#xa;        &lt;h2&gt;Dinner&lt;/h2&gt;&#xa;        &lt;h3&gt;Chicken Adobo with Brown Rice&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;100g chicken thighs: 185 kcal, 20g protein&lt;/li&gt;&#xa;            &lt;li&gt;2 tbsp soy sauce: 20 kcal, 1g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tbsp vinegar: 3 kcal, 0g protein&lt;/li&gt;&#xa;            &lt;li&gt;2 cloves garlic: 8 kcal, 0.4g protein&lt;/li&gt;&#xa;            &lt;li&gt;1/2 cup brown rice: 110 kcal, 2.5g protein&lt;/li&gt;&#xa;            &lt;li&gt;1 tsp vegetable oil (for cooking): 40 kcal, 0g protein&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 23.5g protein.&lt;/p&gt;&#xa;    &lt;/div&gt;&#xa;&#xa;    &lt;div class=&quot;meal-section&quot;&gt;&#xa;        &lt;h2&gt;Snacks&lt;/h2&gt;&#xa;        &lt;h3&gt;Chicken Adobo Wrap&lt;/h3&gt;&#xa;        &lt;h4&gt;Ingredients:&lt;/h4&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;Shredded Chicken (100g): ~22g protein, ~150 calories&lt;/li&gt;&#xa;            &lt;li&gt;Whole-Wheat Tortilla (1): ~4g protein, ~100 calories&lt;/li&gt;&#xa;            &lt;li&gt;Lettuce (&#xbc; cup): ~0.5g protein, ~5 calories&lt;/li&gt;&#xa;            &lt;li&gt;Cucumber (&#xbc; cup): ~0.5g protein, ~5 calories&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;        &lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; ~27g protein, ~260 calories.&lt;/p&gt;&#xa;    &lt;/div&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="20" width="560" height="1800"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="e6" green="f5" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <Events>
+    <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="formPropertyChange"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,2,0,0,3,2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="bmiimg">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/bmi.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="620" y="140" width="150" height="150"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="budgettext">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="28" green="4b" red="5" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Budget"/>
+        <Property name="verticalAlignment" type="int" value="3"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="630" y="580" width="130" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e6" green="f5" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="620" height="730"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e6" green="f5" red="ff" type="rgb"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 2000]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e6" green="f5" red="ff" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;head&gt;&#xa;&lt;style&gt;&#xa;        body {&#xa;            font-family: Arial, sans-serif;&#xa;            line-height: 1.6;&#xa;            margin: 20px;&#xa;            color: rgb(5, 75, 40);&#xa;        }&#xa;        h1, h2, h3 {&#xa;            color: rgb(5, 75, 40);&#xa;        }&#xa;        ul {&#xa;            margin: 10px 0;&#xa;            padding-left: 20px;&#xa;        }&#xa;        li {&#xa;            margin-bottom: 5px;&#xa;        }&#xa;    &lt;/style&gt;&#xa;&lt;/head&gt;&#xa;&lt;body&gt;&#xa;    &lt;h1&gt;Underweight (BMI &amp;lt; 18.5)&lt;/h1&gt;&#xa;    &lt;p&gt;For individuals with a BMI under 18.5 who need to increase their calorie intake in a healthy way, here&apos;s a more affordable approach using inexpensive ingredients:&lt;/p&gt;&#xa;&#xa;    &lt;h2&gt;Breakfast&lt;/h2&gt;&#xa;    &lt;ul&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Tocilog (Tocino, garlic rice, and a fried egg)&lt;/h3&gt;&#xa;            &lt;p&gt;Substitute tocino with cheaper cuts of pork or even chicken, which can be marinated in a sweet-salty soy sauce and sugar mix. Garlic rice is simple and cheap.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;100g pork belly (or chicken thigh), marinated in soy sauce, sugar, and vinegar: 250 kcal, 20g protein&lt;/li&gt;&#xa;                &lt;li&gt;1 cup garlic rice (cooked): 210 kcal, 4g protein&lt;/li&gt;&#xa;                &lt;li&gt;1 large fried egg: 90 kcal, 6g protein&lt;/li&gt;&#xa;                &lt;li&gt;1 tsp vegetable oil (for frying): 40 kcal, 0g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Pancit Canton (stir-fried noodles)&lt;/h3&gt;&#xa;            &lt;p&gt;A cheap and filling dish. Use noodles, vegetables (cabbage, carrots), and a protein like egg or leftover meat.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;1 pack Pancit Canton noodles (approx. 80g): 320 kcal, 8g&lt;/li&gt;&#xa;                &lt;li&gt;1 egg (for protein): 70 kcal, 6g&lt;/li&gt;&#xa;                &lt;li&gt;1/4 cup cabbage (saut&#xe9;ed): 10 kcal, 0.5g&lt;/li&gt;&#xa;                &lt;li&gt;1/4 cup carrots (saut&#xe9;ed): 12 kcal, 0.5g&lt;/li&gt;&#xa;                &lt;li&gt;1 tsp vegetable oil (for stir-frying): 40 kcal, 0g&lt;/li&gt;&#xa;                &lt;li&gt;1 tbsp soy sauce: 10 kcal, 1g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Taho with Granola&lt;/h3&gt;&#xa;            &lt;p&gt;Tofu with arnibal syrup, sago, and a sprinkle of granola for added calories.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;Tofu (100g): ~8g protein, ~70 calories&lt;/li&gt;&#xa;                &lt;li&gt;Arnibal Syrup (2 tbsp): ~50 calories&lt;/li&gt;&#xa;                &lt;li&gt;Sago (2 tbsp): ~40 calories&lt;/li&gt;&#xa;                &lt;li&gt;Granola (2 tbsp): ~2g protein, ~60 calories&lt;/li&gt;&#xa;                &lt;li&gt;Total: ~10g protein, ~220 calories&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Egg and Cheese Pandesal&lt;/h3&gt;&#xa;            &lt;p&gt;Toasted pandesal with scrambled eggs and cheese, with an optional spread of avocado if available.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;Pandesal (1 roll): ~4g protein, ~130 calories&lt;/li&gt;&#xa;                &lt;li&gt;Scrambled Eggs (2 large): ~12g protein, ~140 calories&lt;/li&gt;&#xa;                &lt;li&gt;Cheese Slice (1): ~5g protein, ~80 calories&lt;/li&gt;&#xa;                &lt;li&gt;Avocado (2 tbsp, optional): ~1g protein, ~50 calories&lt;/li&gt;&#xa;                &lt;li&gt;Total: ~21g protein, ~400 calories&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Oatmeal with Peanut Butter and Banana&lt;/h3&gt;&#xa;            &lt;p&gt;Cook oats with milk, add banana slices, and a spoon of peanut butter for extra calories.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;Oats (&#xbd; cup): ~5g protein, ~150 calories&lt;/li&gt;&#xa;                &lt;li&gt;Milk (&#xbd; cup): ~4g protein, ~50 calories&lt;/li&gt;&#xa;                &lt;li&gt;Banana (1 medium): ~1g protein, ~105 calories&lt;/li&gt;&#xa;                &lt;li&gt;Peanut Butter (1 tbsp): ~4g protein, ~90 calories&lt;/li&gt;&#xa;                &lt;li&gt;Total: ~14g protein, ~395 calories&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;&#xa;    &lt;h2&gt;Lunch&lt;/h2&gt;&#xa;    &lt;ul&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Sinigang na Baboy (Pork sour soup)&lt;/h3&gt;&#xa;            &lt;p&gt;Use cheaper cuts of pork like pork belly or even pork neck. Add vegetables like kangkong (water spinach), sitaw (string beans), and labanos (radish).&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;150g pork belly (or neck): 300 kcal, 22g&lt;/li&gt;&#xa;                &lt;li&gt;1/2 cup kangkong (water spinach): 15 kcal, 1g&lt;/li&gt;&#xa;                &lt;li&gt;1/2 cup sitaw (string beans): 20 kcal, 1g&lt;/li&gt;&#xa;                &lt;li&gt;1/2 cup labanos (radish): 10 kcal, 0.5g&lt;/li&gt;&#xa;                &lt;li&gt;1 small onion: 22 kcal, 0.5g&lt;/li&gt;&#xa;                &lt;li&gt;1 packet sinigang mix: 25 kcal, 0g&lt;/li&gt;&#xa;                &lt;li&gt;1 tsp fish sauce: 5 kcal, 1g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Tuna Adobo&lt;/h3&gt;&#xa;            &lt;p&gt;Canned tuna in oil is an affordable alternative to fresh meat. Cook with soy sauce, vinegar, garlic, and bay leaves.&lt;/p&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;1 can tuna in oil (160g): 220 kcal, 32g&lt;/li&gt;&#xa;                &lt;li&gt;2 tbsp soy sauce: 20 kcal, 1g&lt;/li&gt;&#xa;                &lt;li&gt;2 cloves garlic (minced): 8 kcal, 0.5g&lt;/li&gt;&#xa;                &lt;li&gt;2 bay leaves: 2 kcal, 0g&lt;/li&gt;&#xa;                &lt;li&gt;1 tbsp vegetable oil (for frying): 120 kcal, 0g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;&#xa;    &lt;h2&gt;Snacks&lt;/h2&gt;&#xa;    &lt;ul&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Banana Cue (Caramelized bananas on skewers)&lt;/h3&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;2 saba bananas (caramelized): 180 kcal, 2g&lt;/li&gt;&#xa;                &lt;li&gt;1 tbsp sugar (for caramelizing): 45 kcal, 0g&lt;/li&gt;&#xa;                &lt;li&gt;1 tsp vegetable oil (for frying): 40 kcal, 0g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;        &lt;li&gt;&#xa;            &lt;h3&gt;Turon (Banana spring rolls)&lt;/h3&gt;&#xa;            &lt;ul&gt;&#xa;                &lt;li&gt;1 saba banana: 90 kcal, 1g&lt;/li&gt;&#xa;                &lt;li&gt;1/2 sheet lumpia wrapper: 35 kcal, 1g&lt;/li&gt;&#xa;                &lt;li&gt;1 tbsp sugar (for caramelizing): 45 kcal, 0g&lt;/li&gt;&#xa;            &lt;/ul&gt;&#xa;        &lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;&#xa;&#xa;"/>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="0" width="560" height="1940"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="caloriesnum">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,78,111,114,103,46,110,101,116,98,101,97,110,115,46,109,111,100,117,108,101,115,46,102,111,114,109,46,82,65,68,67,111,110,110,101,99,116,105,111,110,80,114,111,112,101,114,116,121,69,100,105,116,111,114,36,82,65,68,67,111,110,110,101,99,116,105,111,110,68,101,115,105,103,110,86,97,108,117,101,2,10,-70,90,-35,-97,-57,100,2,0,7,73,0,4,116,121,112,101,76,0,10,109,101,116,104,111,100,78,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,12,112,114,111,112,101,114,116,121,78,97,109,101,113,0,126,0,1,76,0,16,114,97,100,67,111,109,112,111,110,101,110,116,78,97,109,101,113,0,126,0,1,76,0,16,114,101,113,117,105,114,101,100,84,121,112,101,78,97,109,101,113,0,126,0,1,76,0,8,117,115,101,114,67,111,100,101,113,0,126,0,1,76,0,5,118,97,108,117,101,113,0,126,0,1,120,112,0,0,0,2,112,112,112,112,116,0,0,112"/>
+        </Property>
+        <Property name="verticalAlignment" type="int" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="caloriesnumPropertyChange"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="630" y="500" width="130" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="goaltext">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="28" green="4b" red="5" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Calories:"/>
+        <Property name="verticalAlignment" type="int" value="3"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="630" y="470" width="130" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="progressbar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="630" y="430" width="130" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="caloriesbar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/calorieintake.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="620" y="400" width="150" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="caloriesintake">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Rounded MT Bold" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="28" green="4b" red="5" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Calories Intake"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="620" y="380" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="String.valueOf(User.getBudget())" type="code"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="660" y="640" width="90" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phsign">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x20b1;"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="640" y="640" width="30" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bmitext">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Rounded MT Bold" size="20" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="28" green="4b" red="5" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;BMI: &quot; + BMICalculator.getBMI()" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="bmitextPropertyChange"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="620" y="260" width="150" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
